@@ -1,0 +1,19 @@
+{
+  "name": "desafioshackerrankhome",
+  "version": "1.0.0",
+  "main": "desafio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/*  --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.0.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}
