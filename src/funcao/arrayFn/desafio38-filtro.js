@@ -5,8 +5,8 @@ const entrada = ['ana','bia','jose','juju','jeje','carlos']
 
 let pessoaComJ = entrada.filter((palavraAtual)=>{
     if(palavraAtual.indexOf('j')===0){
-        palavraAtual = true
-        return palavraAtual
+        
+        return true
     }
 })
 

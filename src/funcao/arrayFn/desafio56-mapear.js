@@ -4,7 +4,7 @@ const str = ('jessica')
 
 let arrNome = str.split('')
 
-const devolvePosicaoUTF8 = arrNome.map((letraAtual,i)=>letraAtual.charCodeAt(letraAtual))
+const devolvePosicaoUTF8 = arrNome.map((letraAtual)=>letraAtual.charCodeAt(letraAtual))
 
 console.log(devolvePosicaoUTF8.join(','))
 

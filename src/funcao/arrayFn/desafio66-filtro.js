@@ -37,25 +37,3 @@ let valoresComZero = arr.filter((valorAtual)=>{
   
 console.log(valoresComZero)
 
-
-
-
-// function retornaValoresO (obj){
-//     let arr = Object.values(obj)
-
-//     let arrLetraO = []
-   
-//     for(let i=0; i<arr.length; i++){
-//         let palavraAtual = arr[i].toString()
-        
-//         if(palavraAtual.indexOf('0') != -1){            
-//             arrLetraO.push(palavraAtual)              
-//         }
-//     }
-//     return arrLetraO
-    
-// }
-
-
-  
-// console.log(retornaValoresO(pessoa1))

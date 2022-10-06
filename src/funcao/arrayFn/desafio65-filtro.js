@@ -34,7 +34,6 @@ let chavesComLetraO = arr.filter((chavesAtual)=>{
 })
 
 
-  
 console.log(chavesComLetraO)
 
 

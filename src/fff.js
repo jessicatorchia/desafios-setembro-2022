@@ -1,3 +1,5 @@
+const dayjs = require("dayjs")
+
 // const x = []
 
 // const a = {}
@@ -231,27 +233,29 @@ let num = [1,2,3,4]
 // x[0][2].y()
 
 
-function ligaAguardaEDesliga(controleRemoto) {
-    controleRemoto.liga()
-    setTimeout(()=> {
-        controleRemoto.desliga()
-    }, 10000)
-}
+// function ligaAguardaEDesliga(controleRemoto) {
+//     controleRemoto.liga()
+//     setTimeout(()=> {
+//         controleRemoto.desliga()
+//     }, 10000)
+// }
 
-const controleDaTv = {
-    liga: ()=> console.log('liguei a tv'),
-    desliga: ()=> console.log('desliguei a tv')
-}
+// const controleDaTv = {
+//     liga: ()=> console.log('liguei a tv'),
+//     desliga: ()=> console.log('desliguei a tv')
+// }
 
-const controleDoAr = {
-    cor: 'branco',
-    desliga: ()=> console.log('desliguei o ar'),
-    liga: ()=> console.log('liguei o ar')
-}
+// const controleDoAr = {
+//     cor: 'branco',
+//     desliga: ()=> console.log('desliguei o ar'),
+//     liga: ()=> console.log('liguei o ar')
+// }
 
-const arr = [controleDaTv, controleDoAr]
+// const arr = [controleDaTv, controleDoAr]
 
-arr.forEach(controleAtual=> {
-    ligaAguardaEDesliga(controleAtual)
-})
+// arr.forEach(controleAtual=> {
+//     ligaAguardaEDesliga(controleAtual)
+// })
+
+
 

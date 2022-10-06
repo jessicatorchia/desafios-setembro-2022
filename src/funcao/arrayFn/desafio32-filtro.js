@@ -5,15 +5,15 @@ const entrada = ['a','b','c','d','e']
 let metadeArr2 = entrada.filter((letraAtual,i)=>{
     
     if(i>=(entrada.length/2)){
-        letraAtual = true
-        return letraAtual
+        
+        return true
     }
 })
 
 let metadeArr1 = entrada.filter((letraAtual,i)=>{
     if(i<=(entrada.length/2)){
-        letraAtual = true
-        return letraAtual
+        
+        return true
     }
   
 })

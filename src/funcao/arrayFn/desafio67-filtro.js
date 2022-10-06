@@ -1,4 +1,4 @@
-//obj imprimir a chave e valor de todaos os atributos que o valor>30
+//obj imprimir valor de todaos os atributos que o valor>30
 
 const pessoa1 = {
     nome:'jessica barros torchia',
@@ -28,12 +28,13 @@ const chaves = Object.keys(pessoa1)
 
 const valores = Object.values(pessoa1)
 
-let chaveValorMaior30 = valores.filter((valorAtual)=>{
+let valorMaior30 = valores.filter((valorAtual)=>{
     if(Number.isInteger(valorAtual) == true && valorAtual > 30){
-       return true
+        return true
     }
     
 })
 
 
-console.log(chaveValorMaior30)
+console.log(ValorMaior30)
+

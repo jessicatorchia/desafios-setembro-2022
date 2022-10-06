@@ -15,8 +15,6 @@ let maiorNumero = arrEntrada.reduce((acumulador, numeroAtual)=>{
     return maiorNumero
 },0)
 
-
-
 console.log(maiorNumero)
 
 

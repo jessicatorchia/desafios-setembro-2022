@@ -45,7 +45,7 @@ const frutasMapeadas = frutas.map((frutaAtual)=> 'vitamina de ' + frutaAtual) //
 
 const frutasReduzidas = frutas.reduce((acumulador, frutaAtual)=>{
     return acumulador + frutaAtual
-}, 'mix de ') // 'mix de' é o valor inicial que em uma soma seria zero em uma multiplicação seria 1
+}, 'mix de ') // 'mix de' é o valor inicial do acumulador , que em uma soma seria zero em uma multiplicação seria 1
 
 console.log(frutaEncontrada)
 console.log(frutasFiltradas)
