@@ -30,7 +30,6 @@ let chavesComLetraO = arr.filter((chavesAtual)=>{
     if(chavesAtual.indexOf('o') != -1){
         return true
     } 
-       
 })
 
 

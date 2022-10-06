@@ -15,3 +15,10 @@ function pegaposicao3 (data){
     return data[2]
 }
 console.log(pegaposicao3(entrada))
+
+
+
+
+
+
+

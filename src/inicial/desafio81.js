@@ -3,3 +3,8 @@
 
 const pessoas = ['jessica barros', 'afonso frança', 'juliana barros'] // saida esperada ['jessica', 'afonso', 'juliana']
 
+
+
+let primeiroNome = pessoas.map((pessoaAtual)=> pessoaAtual)
+
+console.log(primeiroNome)

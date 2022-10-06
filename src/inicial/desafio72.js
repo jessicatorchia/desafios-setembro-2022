@@ -37,13 +37,9 @@ const animais = [
  
 let contadorIdade = 0
 
-
-
-
 for(let i=0; i<animais.length; i++ ){
     let idadeAnimais = animais[i].idade
     contadorIdade = contadorIdade + idadeAnimais
-
 }
 
 

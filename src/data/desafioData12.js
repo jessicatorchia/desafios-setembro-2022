@@ -1,4 +1,4 @@
-//receber um array de datas e retorna quantos anos se passaram de cada data da data atual em anos
+//receber um array de datas e retorna se a pessoa da data é maior de 18 anos em true e false.
 const dayjs = require("dayjs")
 
 let entrada = [
@@ -16,11 +16,8 @@ function verificadorMaiorIdade (data){
         let dataAtual = data[i]
 
         let anos = hoje.diff(dataAtual, 'year')
-        if(anos >= 18){
-            arrSaida.push(anos + " É Maior de idade")
-        }else{
-            arrSaida.push(anos + " Menor de idade")
-        }      
+       
+        arrSaida.push(anos>=18)    
     }
     return arrSaida
 }

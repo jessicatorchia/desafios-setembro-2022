@@ -36,5 +36,5 @@ let valorMaior30 = valores.filter((valorAtual)=>{
 })
 
 
-console.log(ValorMaior30)
+console.log(valorMaior30)
 

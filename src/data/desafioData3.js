@@ -9,9 +9,7 @@ let entrada = [
     dayjs("2020-04-30")
 ]
 
-let datas2022 = entrada.filter((dataAtual)=>{
-    if(dataAtual.year()===2022)
-    return true
-})
+let datas2022 = entrada.filter((dataAtual)=> dataAtual.year() === 2022)
+
 
 console.log(datas2022)

@@ -42,14 +42,9 @@ for(let i = 0; i<arrValores.length; i++){
         if(codletraastual >=65 && codletraastual <=90){
 
             obj2[chaveAtual] = palavraAtual
-            break
-            
-            
-            
+            break          
         }
-    }
-
-        
+    } 
 }
 
 console.log(obj2)

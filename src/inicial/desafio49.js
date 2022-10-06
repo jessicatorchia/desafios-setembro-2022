@@ -9,8 +9,7 @@ let contaA = 0
 for(i=0; i<string.length;i++){
     if(string[i]== 'a'){
         contaA = contaA + 1
-    }
-    
+    }    
 }
 
 console.log(contaA)

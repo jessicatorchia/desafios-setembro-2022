@@ -8,10 +8,18 @@ let entrada = [
     dayjs("2022-09-26")
 ]
 
-let dataPar = entrada.filter((dataAtual)=>{
-    if(dataAtual.date() % 2 === 0){
-        return true
-    }
-})
+let dataPar = entrada.filter((dataAtual)=> dataAtual.date() % 2 === 0)
+ 
 
 console.log(dataPar)
+
+
+
+
+// let dataPar = entrada.filter((dataAtual)=>{
+//     if(dataAtual.date() % 2 === 0){
+//         return true
+//     }
+// })
+
+// console.log(dataPar)
