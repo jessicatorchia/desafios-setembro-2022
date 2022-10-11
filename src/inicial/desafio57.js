@@ -28,6 +28,7 @@ console.log(strUTF)
 
 
 
+
 /* foi preciso olhar a tabela do codigo UTF-8 e ver os codigos equivalentes as letras maiusculas e minusculas para que pudesse colocar 
 as condições no cod.
 */
